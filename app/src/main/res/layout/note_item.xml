@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bus Number:"
+                android:layout_marginRight="10dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/busnumberId"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Ba-1234"
+                android:layout_marginRight="10dp"
+                android:textSize="18sp"/>
+            <TextView
+
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time:"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/datetimeId"
+                android:layout_marginLeft="10dp"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:hint="8:00"
+                android:textSize="18sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="6">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile no: "
+                android:layout_marginRight="10dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/mobilenumberId"
+                android:layout_weight="2"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:hint="01766376889"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seats:"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/seatsnumberId"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_width="60dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:hint="2"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="3"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pick Point: "
+                android:layout_marginRight="10dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/buspointId"
+                android:layout_weight="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Dhanmondi bus stop"
+                android:layout_marginRight="10dp"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

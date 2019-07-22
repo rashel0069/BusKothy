@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ConfirmPayment">
+
+    <LinearLayout
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_below="@+id/layout1"
+        android:layout_above="@+id/requestforbookingId"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Need Payment To Confirm Booking Request"
+            android:textSize="22sp"
+            android:textColor="@color/colorAccent"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/cticBusNumId"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Bus Number"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textAlignment="center"/>
+        <LinearLayout
+            android:gravity="center"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/cticDateId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/cticTimeId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Time"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/cticRouteId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:hint="Route Details"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/cticMobileId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="017******89"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:inputType="phone"
+                android:textAlignment="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="From: "/>
+            <TextView
+                android:id="@+id/cstopPickId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:hint="Pick Stop "/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="TO: "/>
+            <TextView
+                android:id="@+id/cstopDestId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:hint="Desti Stop: "/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="Total Seats: "/>
+            <TextView
+                android:id="@+id/cseatsId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:hint="0"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="Total Rent: "/>
+            <TextView
+                android:id="@+id/cfarevaluId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textColor="@color/iconcolor"
+                android:textAlignment="center"
+                android:hint="00"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="taka"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="Select payment Getway: "
+                />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:entries="@array/getwaylist"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="Password: "
+                />
+            <EditText
+                android:id="@+id/payPassId"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:inputType="numberPassword"
+                android:hint="****"
+                android:textAlignment="center"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_margin="25dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/confirmbookingId"
+            android:layout_width="match_parent"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            android:enabled="false"
+            android:text="Confirm Booking"/>
+        </LinearLayout>
+
+
+
+</LinearLayout>

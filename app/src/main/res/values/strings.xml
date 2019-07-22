@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">BusKothy</string>
+    <string name="agree_text">I have read and agree to share my Personal Identifiable Information and other Information</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_notification">User Request</string>
+    <string name="nav_schedule">Schedule</string>
+
+    <string-array name="mirpur12_to_azimpur">
+        <item>Mirpur 12 Bus Stop</item>
+        <item>Mirpur 11 Bus Stop</item>
+        <item>Mirpur 10 Bus Stop</item>
+        <item>Shewrapara Bus Stop</item>
+        <item>Kazipara Bus Stop</item>
+        <item>Agargaon Bus Stop</item>
+        <item>Bijoy Sarani Bus Stop</item>
+        <item>Khamarbari Bus Stop</item>
+        <item>Kolabagan Bus Stop</item>
+        <item>Science Lab Bus Stop</item>
+        <item>Dhanmondi 27 Bus Stop</item>
+        <item>New Market Bus Stop</item>
+        <item>Azimpur Bus Stop</item>
+    </string-array>
+    <string-array name="m12toazp1">
+        <item>Mirpur 12 Bus Stop</item>
+        <item>Mirpur 11 Bus Stop</item>
+        <item>Mirpur 10 Bus Stop</item>
+        <item>Shewrapara Bus Stop</item>
+        <item>Kazipara Bus Stop</item>
+        <item>Agargaon Bus Stop</item>
+        <item>Bijoy Sarani Bus Stop</item>
+    </string-array>
+    <string-array name="m12toazp2">
+        <item>Khamarbari Bus Stop</item>
+        <item>Kolabagan Bus Stop</item>
+        <item>Science Lab Bus Stop</item>
+        <item>Dhanmondi 27 Bus Stop</item>
+        <item>New Market Bus Stop</item>
+        <item>Azimpur Bus Stop</item>
+    </string-array>
+    <string-array name="mirpur1_to_azimpur">
+        <item>Mirpur 1 Bus Stop</item>
+        <item>Kolyanpur Bus Stop</item>
+        <item>Shyamoli Bus Stop</item>
+        <item>Paikpara Bus Stop</item>
+        <item>Technical Bus Stop</item>
+        <item>Asadgeate Bus Stop</item>
+        <item>Kolabagan Bus Stop</item>
+        <item>Dhanmondi 27 Bus Stop</item>
+        <item>Science Lab Bus Stop</item>
+        <item>New Market Bus Stop</item>
+        <item>Azimpur Bus Stop</item>
+    </string-array>
+    <string-array name="m1toazp1">
+        <item>Mirpur 1 Bus Stop</item>
+        <item>Kolyanpur Bus Stop</item>
+        <item>Shyamoli Bus Stop</item>
+        <item>Paikpara Bus Stop</item>
+        <item>Technical Bus Stop</item>
+        <item>Asadgeate Bus Stop</item>
+    </string-array>
+    <string-array name="m1toazp2">
+        <item>Kolabagan Bus Stop</item>
+        <item>Dhanmondi 27 Bus Stop</item>
+        <item>Science Lab Bus Stop</item>
+        <item>New Market Bus Stop</item>
+        <item>Azimpur Bus Stop</item>
+    </string-array>
+
+    <string-array name="mohammadpur_to_abdullahpur">
+        <item>Mohammadpur Bus Stop</item>
+        <item>Shyamoli Bus Stop</item>
+        <item>Sishumela Bus Stop</item>
+        <item>Agargaon Bus Stop</item>
+        <item>BAF shahin collage Bus Stop</item>
+        <item>Mohakhali Bus Stop</item>
+        <item>Banani Bus Stop</item>
+        <item>Bisshoroad Bus Stop</item>
+        <item>Airport Bus Stop</item>
+        <item>Kochukhet Bus Stop</item>
+        <item>Uttora Hou_Building Bus Stop</item>
+        <item>Abdullahpur Bus Stop</item>
+
+    </string-array>
+    <string-array name="mohtoabd1">
+        <item>Mohammadpur Bus Stop</item>
+        <item>Shyamoli Bus Stop</item>
+        <item>Sishumela Bus Stop</item>
+        <item>Agargaon Bus Stop</item>
+        <item>BAF shahin collage Bus Stop</item>
+        <item>Mohakhali Bus Stop</item>
+    </string-array>
+    <string-array name="mohtoabd2">
+        <item>Banani Bus Stop</item>
+        <item>Bisshoroad Bus Stop</item>
+        <item>Airport Bus Stop</item>
+        <item>Kochukhet Bus Stop</item>
+        <item>Uttora Hou_Building Bus Stop</item>
+        <item>Abdullahpur Bus Stop</item>
+    </string-array>
+    <string-array name="mirpur12_to_jatrabari">
+        <item>Mirpur 12 Bus Stop</item>
+        <item>Mirpur 11 Bus Stop</item>
+        <item>Mirpur 10 Bus Stop</item>
+        <item>Shewrapara Bus Stop</item>
+        <item>Kazipara Bus Stop</item>
+        <item>Agargaon Bus Stop</item>
+        <item>Khamarbari Bus Stop</item>
+        <item>Bijoy Sarani Bus Stop</item>
+        <item>Farmgate Bus Stop</item>
+        <item>Kawranbazar Bus Stop</item>
+        <item>Bangla Motor Bus Stop</item>
+        <item>Shahbag Bus Stop</item>
+        <item>Jatrabari Bus Stop</item>
+        <item>Tikatuli Bus Stop</item>
+        <item>Press Club Bus Stop</item>
+        <item>Gulistan Bus Stop</item>
+        <item>Motijhil Bus Stop</item>
+    </string-array>
+    <string-array name="m12tojat2">
+        <item>Farmgate Bus Stop</item>
+        <item>Kawranbazar Bus Stop</item>
+        <item>Bangla Motor Bus Stop</item>
+        <item>Shahbag Bus Stop</item>
+    </string-array>
+    <string-array name="m12tojat3">
+        <item>Jatrabari Bus Stop</item>
+        <item>Tikatuli Bus Stop</item>
+        <item>Press Club Bus Stop</item>
+        <item>Gulistan Bus Stop</item>
+        <item>Motijhil Bus Stop</item>
+    </string-array>
+    <string-array name="chiriyakhana_to_komlapuri">
+        <item>Chiriyakhana Bus Stop</item>
+        <item>Mirpur 2 Bus Stop</item>
+        <item>Mirpur 10 Bus Stop</item>
+        <item>Shewrapara Bus Stop</item>
+        <item>Kazipara Bus Stop</item>
+        <item>Agargaon Bus Stop</item>
+        <item>Khamarbari Bus Stop</item>
+        <item>Bijoy Sarani Bus Stop</item>
+        <item>Farmgate Bus Stop</item>
+        <item>Kawranbazar Bus Stop</item>
+        <item>Bangla Motor Bus Stop</item>
+        <item>Mogbazar Bus Stop</item>
+        <item>Malibag Bus Stop</item>
+        <item>Komlapur Bus Stop</item>
+        <item>Motijhil Bus Stop</item>
+    </string-array>
+    <string-array name="chitokom1">
+        <item>Chiriyakhana Bus Stop</item>
+        <item>Mirpur 2 Bus Stop</item>
+        <item>Mirpur 10 Bus Stop</item>
+        <item>Shewrapara Bus Stop</item>
+        <item>Kazipara Bus Stop</item>
+        <item>Agargaon Bus Stop</item>
+        <item>Khamarbari Bus Stop</item>
+        <item>Bijoy Sarani Bus Stop</item>
+        <item>Farmgate Bus Stop</item>
+    </string-array>
+    <string-array name="chitokom2">
+        <item>Kawranbazar Bus Stop</item>
+        <item>Bangla Motor Bus Stop</item>
+        <item>Mogbazar Bus Stop</item>
+        <item>Malibag Bus Stop</item>
+        <item>Komlapur Bus Stop</item>
+        <item>Motijhil Bus Stop</item>
+    </string-array>
+
+    <array name="genderlist">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </array>
+    <array name="getwaylist">
+        <item>Select Payment Gateway</item>
+        <item>Bkash</item>
+        <item>Rocket</item>
+        <item>Nagad</item>
+
+    </array>
+    <array name="religionslist">
+        <item>Religion</item>
+        <item>Islam</item>
+        <item>Hindu</item>
+        <item>Others</item>
+    </array>
+
+    <string-array name="routes">
+        <item>Select your Routes</item>
+        <item>Mirpur 12 to Azimpur</item>
+        <item>Azimpur to Mirpur 12</item>
+        <item>Mirpur 1 to Azimpur</item>
+        <item>Azimpur to Mirpur 1</item>
+        <item>Mohammadpur to Abdullapur</item>
+        <item>Abdullapur to Mohammadpur</item>
+        <item>Mirpur 12 to Jatrabari</item>
+        <item>Jatrabari to Mirpur 12</item>
+        <item>Chiriyakhana to Komlapur</item>
+        <item>Komlapur to Chiriyakhana</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_user_map">Map</string>
+    <string name="title_activity_driver_maps">Map</string>
+</resources>

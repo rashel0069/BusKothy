@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:id="@+id/requestBusnumberId"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="Bus number"
+            android:textSize="18sp"/>
+        <TextView
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/requestTimeId"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="Bus Time"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Number Of Seat"
+            android:textSize="18sp"/>
+        <TextView
+            android:textAlignment="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:id="@+id/requestseatNumberId"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="Seats"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/requestPickId"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Pick Bus Stop"
+        android:textSize="18sp"/>
+
+
+
+
+</LinearLayout>

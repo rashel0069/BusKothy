@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Available Bus's"
+        android:textSize="25dp"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textAlignment="center"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:id="@+id/picLocID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PickLocation"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:id="@+id/destLocId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Destination Location"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Cost:"
+            android:textSize="18sp"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:id="@+id/costID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="00"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="@color/iconcolor"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:text="BDT"/>
+    </LinearLayout>
+
+
+    <ImageButton
+        android:layout_margin="10dp"
+        android:id="@+id/searchBusID"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button_circle"
+        android:scaleType="fitXY"
+        android:src="@drawable/bussearch" />
+
+</LinearLayout>

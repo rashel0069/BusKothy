@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "315712524938",
+    "firebase_url": "https://buskothy-1d180.firebaseio.com",
+    "project_id": "buskothy-1d180",
+    "storage_bucket": "buskothy-1d180.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315712524938:android:7a2f6eb1731d876a",
+        "android_client_info": {
+          "package_name": "com.example.buskothy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315712524938-p366hl5c0r3v9jrcplq808tn2367fikh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.buskothy",
+            "certificate_hash": "b9e0ed23e4acfd580092aa197337d44864388a3a"
+          }
+        },
+        {
+          "client_id": "315712524938-a7ohe4otp8d3n88if9ihvdntionh0cbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCslECfmr4vSQ4PUIKaM5ET1MyyzADP26A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315712524938-a7ohe4otp8d3n88if9ihvdntionh0cbt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:id="@+id/paymentFragment"
+    tools:context=".PaymentFragment">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageButton
+            android:background="@color/colorAccent"
+            android:id="@+id/bkashID"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:src="@drawable/bkash"
+            android:scaleType="fitXY"/>
+        <ImageButton
+            android:id="@+id/rocketID"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:src="@drawable/rocket"
+            android:scaleType="fitXY"/>
+        <ImageButton
+            android:id="@+id/nogodID"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:src="@drawable/nogod"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".Admin">
+
+    <LinearLayout
+        android:weightSum="6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:weightSum="2">
+            <ImageButton
+                android:id="@+id/reglistId"
+                android:layout_marginRight="5dp"
+                android:layout_width="150dp"
+                android:layout_height="170dp"
+                android:scaleType="fitEnd"
+                android:layout_weight="1"
+                android:background="@drawable/ownerreg"/>
+            <ImageButton
+                android:id="@+id/buslistbuttonId"
+                android:layout_marginLeft="5dp"
+                android:layout_width="150dp"
+                android:layout_height="170dp"
+                android:background="@drawable/buslist"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:weightSum="2">
+            <ImageButton
+                android:id="@+id/ownerinfobuttonId"
+                android:layout_marginRight="5dp"
+                android:layout_width="150dp"
+                android:layout_height="170dp"
+                android:layout_weight="1"
+                android:background="@drawable/ownerinfo"/>
+            <ImageButton
+                android:id="@+id/editinfobuttonId"
+                android:layout_marginLeft="5dp"
+                android:layout_width="150dp"
+                android:layout_height="170dp"
+                android:background="@drawable/admineditinfo"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:weightSum="2">
+            <ImageButton
+                android:id="@+id/sendmessbuttonId"
+                android:layout_marginRight="5dp"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:background="@drawable/sendnotice"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".DriverInterface">
+
+    <LinearLayout
+        android:id="@+id/driverLoginText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Bus Kothy!"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" A bus ride sharing application"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14dp" />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:src="@drawable/driver"
+        android:layout_below="@+id/driverLoginText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_centerInParent="true"
+        android:id="@+id/driverLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter ID Number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/driverLogin"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:id="@+id/driverPassword"/>
+    <Button
+        android:id="@+id/driverLogId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="@drawable/defult_button"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/driverPassword"
+        android:layout_marginTop="5dp"/>
+    <ProgressBar
+        android:id="@+id/driverprogressbarId"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

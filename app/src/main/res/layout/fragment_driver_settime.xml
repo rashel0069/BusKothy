@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverSettimeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/dateID"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+        <Spinner
+            android:id="@+id/spinrerroute"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAlignment="center">
+
+        </Spinner>
+        <ImageButton
+            android:id="@+id/clockid"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/clock" />
+        <TextView
+            android:id="@+id/timepic"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="Click the clock and set Time "
+            android:textAlignment="center"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/busNameID"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+        <Button
+            android:id="@+id/gonext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/defult_button"
+            android:text="Set Schedule"
+            android:textColor="@color/whiteAccent"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:enabled="false"/>
+
+    </LinearLayout>
+
+</FrameLayout>

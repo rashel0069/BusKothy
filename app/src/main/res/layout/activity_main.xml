@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nav_user"
+        android:layout_alignParentBottom="true"
+        app:itemIconTint="@color/user_nav_items_color"
+        app:itemBackground="@color/colorPrimary"
+        app:itemTextColor="#ffffff"
+        app:menu="@menu/user_bottom_nav_menu">
+
+    </android.support.design.widget.BottomNavigationView>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="396dp"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/nav_user" />
+
+</RelativeLayout>

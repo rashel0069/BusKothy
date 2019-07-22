@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <fragment android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/usermap"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+    <RelativeLayout
+        android:id="@+id/real1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent2"
+        android:padding="25dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/pickBusID"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/routeSpinerID"
+            android:completionThreshold="1"
+            android:enabled="false"
+            android:hint="Pick Bus Stop" />
+
+        <AutoCompleteTextView
+            android:id="@+id/destinationBusId"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pickBusID"
+            android:completionThreshold="1"
+            android:enabled="false"
+            android:hint="Destination Bus Stop" />
+
+        <Spinner
+            android:id="@+id/routeSpinerID"
+            android:layout_width="330dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="5dp"
+            android:entries="@array/routes">
+
+        </Spinner>
+
+        <Button
+            android:id="@+id/openBottomId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/destinationBusId"
+            android:layout_below="@+id/destinationBusId"
+            android:text="Next" />
+
+    </RelativeLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emergencycallId"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/emrcall"
+        android:layout_margin="16dp"/>
+
+</FrameLayout>

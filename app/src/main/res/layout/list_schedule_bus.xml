@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:padding="25dp"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViewbusnameID"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="Bus number" />
+    <TextView
+        android:id="@+id/textViewbusScheduleId"
+        android:layout_width="match_parent"
+        android:layout_below="@id/textViewbusnameID"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_height="35dp"
+        android:text="Time" />
+    <TextView
+        android:id="@+id/textViewBusRouteID"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_below="@id/textViewbusScheduleId"
+        android:text="Route" />
+</RelativeLayout>

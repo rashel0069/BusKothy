@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.buskothy">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.hardware.location.gps" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gfs.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/newlog"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/newlog"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ConfirmPayment" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Splashscreen"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".ChoseLogin"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name=".UserLogin"
+            android:label="BusKothy UserLogin" />
+        <activity
+            android:name=".VerifyCode"
+            android:label="VerifyCode" />
+        <activity
+            android:name=".DriverInterface"
+            android:label="BusKothy Driver" />
+        <activity
+            android:name=".BusOwner"
+            android:label="Bus Owner Login" />
+        <activity
+            android:name=".BusOwnerRegistration"
+            android:label="List Of BusOwner" />
+        <activity android:name=".ChoseAuthor" />
+        <activity
+            android:name=".AdminInterface"
+            android:label="Admin LogIn" />
+        <activity
+            android:name=".Admin"
+            android:label="Admin Panel" />
+        <activity
+            android:name=".Registrationform"
+            android:label="Registration Form" />
+        <activity
+            android:name=".SeeBusList"
+            android:label="Registered  BusList" />
+        <activity
+            android:name=".DriverLogin"
+            android:label="BusKothy Driver" />
+        <activity android:name=".UserRequestforBus" />
+        <activity
+            android:name=".UserBusList"
+            android:label="Available Bus" />
+        <activity
+            android:name=".PaymentInterface"
+            android:label="Payment Now" />
+    </application>
+
+</manifest>
